@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Custom styles-->
+  <link rel="stylesheet" href="./css/style2.css">
+
+  <title>Chuck Norris Style</title>
+</head>
+
+<body>
+  <h1 class="text-center py-5">IS CHUCK NORRIS A GOD?</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-md-12 img">
+        <img src="./svg/chudk-norris1.svg" alt="" class="img-thumbnail">
+      </div>
+      <div class="col-6 col-d-12 d-flex flex-direction-column justify-space-evently align-items-center">
+        <button type="button" class="btn btn-outline-primary btn-lg mx-2" data-bs-toggle="modal"
+          data-bs-target="#exampleModal" id="jquery-button">With JQuery</button>
+        <button type="button" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal"
+          data-bs-target="#exampleModal" id="fetch-button">With Fectch</button>
+      </div>
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Did you know?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col d-flex justify-content-center"><img src="./svg/chuck-norris2.svg" alt="" class="mx-2"></div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="sentence-content" id="sentence-content"></div>
+            </div>
+          </div>
+     
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-outline-primary">Save changes</button>
+        </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- My Script -->
+    <script src="./main2.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"></script>
+
+
+</body>
